@@ -1,0 +1,62 @@
+body{
+    
+        background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+          linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+          linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+          radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+          radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+        background-blend-mode: screen, color-dodge, overlay, difference, normal;
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+      
+   
+    
+ }
+ .container{
+    width: 360px;
+    padding: 44px 33px 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 50px;
+    border-radius: 15px;
+ }
+ input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 19px;
+    border-radius: 5px;
+
+
+
+ }
+ button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+ }
+ .text ul{
+    position: relative;
+    background-color: rgb(5, 31, 31);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
+
+
+
